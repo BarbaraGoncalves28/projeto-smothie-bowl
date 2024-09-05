@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bowls.css">
+    <title>Smoothie Bowl</title>
+</head>
+
+<body>
+    <header>
+        <img src="favicon/logo.png" alt="logo">
+
+        <nav>
+            <a href="#">All Recipes</a>
+            <a href="#">Vegan</a>
+            <a href="#">Gluten-freen</a>
+            <a href="#">Shop</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Sip Your Kay to Bliss Taste</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ipsum libero a laboriosam sunt quisquam voluptate <br> Lorem ipsum dolor.</p>
+
+        <div>
+            <button class="button_smoothie" type="button" onclick="changeSmoothie('banana')">
+                <img src="img/banana.png" alt="Smoothie de banana">
+            </button>
+
+            <button class="button_smoothie" type="button" onclick="changeSmoothie('morango')">
+                <img src="img/morango.png" alt="Smoothie de morango">
+            </button>
+
+            <button class="button_smoothie" type="button" onclick="changeSmoothie('kiwi')">
+                <img src="img/kiwi.png" alt="Smoothie de kiwi">
+            </button>
+
+            <button class="button_smoothie" type="button" onclick="changeSmoothie('mertilho')">
+                <img src="img/mertilho.png" alt="Smoothie de mertilho">
+            </button>
+        </div>
+    </main>
+
+    <div id="bowls">
+        <img src="img-rotate/bowls.png" alt="imagens dos Smoothies">
+    </div>
+
+    <span id="circle"></span>
+</body>
+<script src="index.js"></script>
+</html>
